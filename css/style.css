@@ -29,20 +29,17 @@ img {
   display: block;
   max-width: 100%;
 }
-section {
-  padding: 120px;
-}
 header {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
 footer {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
@@ -51,9 +48,9 @@ footer {
 /* Header */
 
 .navi {
-  padding-left: 156px;
   display: flex;
   flex-direction: row;
+  padding-left: 15px;
 }
 .logo {
   color: #4d5ae5;
@@ -63,7 +60,7 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding: 25.5px 0;
+  margin: 25.5px 0;
 }
 .logo span {
   color: #2e2f42;
@@ -96,7 +93,7 @@ footer {
 }
 .address {
   font-style: normal;
-  padding-right: 156px;
+  padding-right: 15px;
 }
 .adress-item {
   color: #434455;
@@ -113,26 +110,13 @@ footer {
 }
 .adress-list {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 40px;
   padding: 25.5px 0;
 }
 
 /* Main */
 
-.container-list {
-  padding-left: 156px;
-  padding-right: 156px;
-}
-.list-one {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  flex-basis: 264px;
-}
-.list-two {
-  width: calc((100% - 72px) / 4);
-}
 .section-main {
   background: #2e2f42;
   max-width: 100%;
@@ -161,7 +145,7 @@ footer {
   padding: 16px 32px;
   border-radius: 4px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 .button:hover {
   background-color: #404bbf;
@@ -172,6 +156,18 @@ footer {
 
 /* Priorities */
 
+.container-list {
+  padding: 120px 15px;
+}
+.list-one {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-basis: 264px;
+}
+.list-two {
+  width: calc((100% - 72px) / 4);
+}
 .title-hide {
   display: none;
 }
@@ -208,8 +204,7 @@ footer {
 
 .section-team {
   background-color: #f4f4fd;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 120px 15px;
 }
 
 .list-three {
@@ -236,7 +231,6 @@ footer {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 
@@ -273,6 +267,9 @@ footer {
   padding: 8px 0 32px 16px;
 }
 .box-list {
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-box {
   display: flex;
@@ -286,7 +283,7 @@ footer {
   background-color: #2e2f42;
 }
 .footer-box {
-  padding: 101.5px 156px 100px 156px;
+  padding: 101.5px 15px 100px 15px;
 }
 
 .logo-footer {
