@@ -31,10 +31,10 @@ img {
 }
 
 footer {
-  max-width: 1158px;
   margin: 0 auto;
 }
 section {
+  max-wide: 100%;
   padding: 120px 0;
 }
 .container {
@@ -45,14 +45,14 @@ section {
   margin-right: 0;
 }
 .container {
+  max-width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
 /* Header */
 
 .header-top {
-  max-width: 1158px;
-  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
 .navi {
@@ -124,8 +124,6 @@ section {
 
 .section-main {
   background: #2e2f42;
-  max-width: 1158px;
-  margin: 0 auto;
   padding: 188px 0;
 }
 .main-title {
@@ -180,7 +178,6 @@ section {
 }
 
 .container-list {
-  width: 1158px;
   margin: 0 auto;
 }
 .list-one {
@@ -216,7 +213,6 @@ section {
 
 .section-team {
   background-color: #f4f4fd;
-  width: 1158px;
   margin: 0 auto;
 }
 
